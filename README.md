@@ -1,4 +1,4 @@
-# 📊 Portafolio Analista de Datos 
+# 📊 Portafolio Analista de Datos - Juan Pablo Tovar
 
 Bienvenido a mi portafolio como analista de datos. Aquí encontrarás proyectos que demuestran mis habilidades en análisis, visualización y comunicación de datos.
 
