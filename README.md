@@ -9,8 +9,6 @@ A continuación abordare el siguiente caso de estudio desarrollado con Tableau:
 
 # 🏘️ Análisis de Mercado de Vivienda en Tepic, Nayarit
 
----
-
 ## 🎯 Objetivo del Proyecto
 
 Este proyecto tiene como finalidad analizar el comportamiento del mercado inmobiliario en Tepic, Nayarit, mediante el uso de Tableau Public. Se busca proporcionar al desarrollador de vivienda información estratégica para definir un precio competitivo, evitando que el producto final se sitúe fuera de los rangos del mercado.
