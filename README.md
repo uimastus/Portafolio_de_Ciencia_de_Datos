@@ -3,23 +3,27 @@
 Bienvenido a mi portafolio como analista de datos. Aquí encontrarás proyectos que demuestran mis habilidades en análisis, visualización y comunicación de datos con las herramientas de software Tableau y Power BI.
 
 ## 🧠 Sobre mí
+
 Soy estudiante del último cuatrimestre (sept-oct de 2025), cursando la Licenciatura en Ingeniería en Software y Redes, con cursos especializantes en análisis y analítica de datos. Me apasiona aplicar la tecnología a problemas reales, y siempre en busqueda de la alternativa más adecuada para los retos. 
 
-A continuación abordare el siguiente caso de estudio desarrollado con Tableau:
+# 🏘️ Caso de Estudio: Análisis de Mercado de Vivienda en Tepic con Tableau
 
-# 🏘️ Análisis de Mercado de Vivienda en Tepic, Nayarit
+En este proyecto aplico técnicas de análisis de datos y visualización estratégica para apoyar a una desarrolladora en la toma de decisiones informadas sobre el precio de venta de una vivienda nueva en Tepic, Nayarit. Utilizando Tableau Public y un conjunto de datos comparables, construyo un dashboard interactivo que permite explorar precios unitarios, detectar sobreprecios y estimar valores de mercado.
 
 ## 🎯 Objetivo del Proyecto
 
-Este proyecto tiene como finalidad analizar el comportamiento del mercado inmobiliario en Tepic, Nayarit, mediante el uso de Tableau Public. Se busca proporcionar al desarrollador de vivienda información estratégica para definir un precio competitivo, evitando que el producto final se sitúe fuera de los rangos del mercado.
-
+- **Conectar** datos comparables de vivienda con Tableau Public
+- **Visualizar** precios unitarios ($/m²) por zona, clase y tipo de asentamiento
+- **Estimar** el precio más probable mediante líneas de tendencia
+- **Detectar** posibles sobreprecios y gaps de mercado
+- **Documentar** el proceso  
 ---
 
 ## 🏗️ Contexto del Caso de Estudio
 
-La constructora ha adquirido un terreno con las siguientes características:
+La vivienda objetivo cuenta con:
 
-- **Ubicación:** Calle Arquitectura S/N, Fracc. AGEUAN Los Limones, Tepic, Nayarit, C.P. 63177  
+- **Ubicación:** Fracc. AGEUAN Los Limones, Tepic, Nayarit, C.P. 63177  
 - **Niveles:** 2  
 - **Cochera:** 2 espacios  
 - **Recámaras:** 3  
@@ -38,8 +42,13 @@ El proyecto sigue un proceso estructurado de análisis de datos:
 > ¿Cuál es la distribución de precios unitarios de viviendas en Tepic y cómo estimar el valor más probable para una propiedad nueva?
 
 ### 2. Recolección de datos
-- Archivo fuente: `Proyecto_Datos_Portafolio_Media.xlsx`
-- Variables: precio de venta, superficie construida, ubicación geográfica, clase de vivienda, imagen de fachada
+Archivo fuente: `Proyecto_Datos_Portafolio_Media.xlsx`
+
+Variables clave:
+
+- Precio pactado, superficie, ubicación, clase, conservación
+- Valor unitario de mercado, valor físico según SHF
+- Gap de precio, posible sobreprecio, costo de avalúo
 
 ### 3. Exploración de datos (EDA)
 - Identificación de valores faltantes
@@ -47,9 +56,10 @@ El proyecto sigue un proceso estructurado de análisis de datos:
 
 ### 4. Preparación de datos
 - Limpieza y transformación
-- Campo calculado: `Precio unitario = Precio de venta / Superficie construida`
-- Clasificación de outliers mediante fórmulas en Tableau
-
+- Campo calculado: [Precio_en_venta_o_pactado] / ([Sup_construcción_CH_m2] + [Sup_construcción_CH_m2])
+- Clasificación de outliers por desviación estándar
+- Filtros por municipio, colonia, clase y tipo
+  
 ### 5. Visualización en Tableau Public
 - Gráfico de dispersión por clase y ubicación
 - Línea de tendencia para estimación de precios
@@ -71,12 +81,18 @@ Este proyecto aplica principios de ética de los datos:
 
 ## 📁 Estructura del Repositorio
 
+Proyecto_Vivienda_Tepic/
+│
+├── README.md
+├── Datos/
+│   └── Proyecto_Datos_Portafolio_Media.xlsx
+├── Documentación/
+│   └── Guía_Conexión_Tableau.md
+├── Capturas/
+│   └── dashboard_preview.png
+└── Enlace_Dashboard.txt
 
-
-
-
-
-
+---
 
 ## 📬 Contacto
 - LinkedIn: linkedin.com/in/juan-pablo-tovar-8aa896351
