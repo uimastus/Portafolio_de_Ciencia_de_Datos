@@ -43,7 +43,7 @@ El proyecto sigue un proceso estructurado de análisis de datos:
 
 ### 2. Recolección de datos
 Archivo fuente: `Proyecto_Datos_Portafolio_Media.xlsx`
-![Vista de la hoja de cálculo](https://raw.githubusercontent.com/uimastus/Portafolio_de_Ciencia_de_Datos/main/Capturas/HojaCalculoMedia.png)
+![Vista de la hoja de cálculo](https://raw.githubusercontent.com/uimastus/Portafolio_de_Ciencia_de_Datos/main/HojaCalculoMedia.png)
 
 Variables clave:
 
