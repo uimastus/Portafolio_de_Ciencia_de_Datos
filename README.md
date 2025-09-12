@@ -47,7 +47,7 @@ Archivo fuente: `Proyecto_Datos_Portafolio_Media.xlsx`
 
 Variables clave:
 
-- Precio pactado, superficie, ubicación, clase, conservación
+- Precio pactado, superficie, ubicación, clase, niveles, conservación
 - Valor unitario de mercado, valor físico de acuerdo con SHF
 - Gap de precio, condición de mercado, costo de avalúo
 
@@ -58,7 +58,7 @@ Variables clave:
 ### 4. Preparación de datos
 - Limpieza y transformación
 - Campo calculado: [Precio_en_venta_o_pactado] / ([Sup_construcción_CH_m2] + [Sup_construcción_ACC_m2])
-- Clasificación de outliers por desviación estándar
+- Clasificación de outliers (datos atípicos) por desviación estándar
 - Filtros por clase, tipo y niveles de la vivienda.
   
 ### 5. Visualización en Tableau Public
@@ -66,7 +66,6 @@ Variables clave:
 - Línea de tendencia para estimación de precios
 - Mapa geoespacial con precios y coordenadas
 - Panel de filtros interactivos
-- Visualización de imágenes de fachada (si están disponibles)
 
 ---
 
