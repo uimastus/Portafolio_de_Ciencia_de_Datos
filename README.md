@@ -4,17 +4,17 @@ Bienvenido a mi portafolio como analista de datos. Aquí encontrarás proyectos 
 
 ## 🧠 Sobre mí
 
-Soy estudiante del último cuatrimestre (sept-oct de 2025), cursando la Licenciatura en Ingeniería en Software y Redes, con cursos especializantes en análisis y analítica de datos. Me apasiona aplicar la tecnología a problemas reales, y siempre en busqueda de la alternativa más adecuada para los retos. 
+Soy estudiante, atualmente cursando la Licenciatura en Ingeniería en Software y Redes. Me apasiona aplicar la tecnología a problemas reales, y siempre en busqueda de la alternativa más adecuada para los desafíos encomendados. 
 
-# 🏘️ Caso de Estudio: Análisis de Mercado de Vivienda en Tepic con Tableau
+# 🏘️ Caso de Estudio: Análisis de Mercado de Vivienda con Tableau
 
-En este proyecto aplico técnicas de análisis de datos y visualización estratégica para apoyar a una desarrolladora en la toma de decisiones informadas sobre el precio de venta de una vivienda nueva en Tepic, Nayarit. Utilizando Tableau Public y un conjunto de datos comparables, construyo un dashboard interactivo que permite explorar precios unitarios, detectar sobreprecios y estimar valores de mercado.
+En este proyecto aplico técnicas de análisis de datos y visualización estratégica para apoyar a los interesados en la toma de decisiones informadas sobre el precio pactado o de venta de una vivienda nueva o usada en una región específica del territorio nacional. Utilizando Tableau Public y un conjunto de datos comparables, construyo un dashboard interactivo que permite explorar precios unitarios, detectar sobreprecios y estimar valores de mercado.
 
 ## 🎯 Objetivo del Proyecto
 
 - **Conectar** datos comparables de vivienda con Tableau Public
 - **Visualizar** precios unitarios ($/m²) por zona, clase y tipo de asentamiento
-- **Estimar** el precio más probable mediante líneas de tendencia
+- **Estimar** el precio más probable mediante líneas de tendencia 
 - **Detectar** posibles sobreprecios y gaps de mercado
 - **Documentar** el proceso  
 ---
