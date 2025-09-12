@@ -47,18 +47,18 @@ Archivo fuente: `Proyecto_Datos_Portafolio_Media.xlsx`
 Variables clave:
 
 - Precio pactado, superficie, ubicación, clase, conservación
-- Valor unitario de mercado, valor físico según SHF
-- Gap de precio, posible sobreprecio, costo de avalúo
+- Valor unitario de mercado, valor físico de acuerdo con SHF
+- Gap de precio, condición de mercado, costo de avalúo
 
-### 3. Exploración de datos (EDA)
+### 3. Análisis exploratorio de datos (EDA)
 - Identificación de valores faltantes
 - Cálculo de métricas: media, mediana, mínimo, máximo, desviación estándar
 
 ### 4. Preparación de datos
 - Limpieza y transformación
-- Campo calculado: [Precio_en_venta_o_pactado] / ([Sup_construcción_CH_m2] + [Sup_construcción_CH_m2])
+- Campo calculado: [Precio_en_venta_o_pactado] / ([Sup_construcción_CH_m2] + [Sup_construcción_ACC_m2])
 - Clasificación de outliers por desviación estándar
-- Filtros por municipio, colonia, clase y tipo
+- Filtros por clase, tipo y niveles de la vivienda.
   
 ### 5. Visualización en Tableau Public
 - Gráfico de dispersión por clase y ubicación
