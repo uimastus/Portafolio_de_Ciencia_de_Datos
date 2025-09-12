@@ -67,6 +67,7 @@ Variables clave:
 - Mapa geoespacial con precios y coordenadas
 - Panel de filtros interactivos
 
+🔗 [Ver dashboard en Tableau Public](https://public.tableau.com/views/Analisis_Mercado_Vivienda/AnalisisMercadoVivienda?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ---
 
 ## 🔐 Consideraciones Éticas
