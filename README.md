@@ -97,4 +97,4 @@ Proyecto_Vivienda_Tepic/
 
 ## 📬 Contacto
 - LinkedIn: linkedin.com/in/juan-pablo-tovar-8aa896351
-- Correo: uimastus@gmail.com
+- Correo: valorextovar@gmail.com | uimastus@gmail.com
